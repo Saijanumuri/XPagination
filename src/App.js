@@ -16,7 +16,7 @@ const [fulldaata, setFulldata] = useState([]);
         setFulldata(response.data);
       })
       .catch((error) => {
-        window.alert("Error fetching data");
+        window.alert("failed to fetch data");
         console.error(error);
       });
   }, []);
